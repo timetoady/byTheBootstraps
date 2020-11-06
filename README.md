@@ -1,10 +1,13 @@
 # byTheBootstraps
  Simple bootstrap playground test
 
-
 ## Assignment page
 
 https://uvu.instructure.com/courses/506550/assignments/4876477?module_item_id=7156135
+
+## Site design basis
+
+https://www.wasdkeyboards.com/
 
 ## Requirements
 
