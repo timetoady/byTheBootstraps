@@ -51,4 +51,4 @@ Download Compiled CSS and JS from https://getbootstrap.com/docs/4.5/getting-star
 Use the jsDelivr CDN imports into your project
  (Links to an external site.) (Links to an external site.)
 
-Turn your assignment in by creating your GIthub repo and submit URL to your project, as well as URL to your selected design inspiration site.
+Turn your assignment in by creating your GitHub repo and submit URL to your project, as well as URL to your selected design inspiration site.

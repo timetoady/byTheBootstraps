@@ -11,6 +11,108 @@
     background-color: #5d5d5d;
 }
 
+
 .bg-light{
     background-color: #f5f5f5 !important;
 }
+
+button.navbar-toggle{
+    border: none;
+    font-size: larger;
+    background-color: #f5f5f5;
+}
+
+nav.navbar.navbar-light.bg-light{
+    padding: 1rem !important; 
+}
+
+form.form-inline{
+    margin-top: 0 !important;
+    
+}
+
+input.form-control.form-control-sm{
+    border-radius: 0;
+}
+
+.navlinks a {
+    color: #80838b !important;
+    font-size: 1rem;
+}
+
+.active-cyan-2 input.form-control {
+    background-color: #84878F;
+}
+
+.active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+  }
+
+
+ 
+.searchIcon{
+    margin-left: -1.3rem;
+    color: white
+}  
+
+/* navbar settings */
+@media screen and (max-width: 504px){
+    .desktopOnly{
+        display: none !important;
+        
+    }
+    .flexColumn{
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+
+@media screen and (min-width: 505px){
+    .mobileOnly{
+        display: none;
+    }
+
+}
+
+
+.darkback{
+    background-color: #5d5d5d;
+    padding: .4rem;
+    width: 100%;
+}
+
+.slide{
+    border: 1px solid #80838b69;
+}
+
+/* carousel */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  /* outline: black; */
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 3rem;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 3rem;
+  color: black;
+}
+
+.carousel-caption{
+    background-color: #47474725;
+    
+}         
