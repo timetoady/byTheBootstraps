@@ -66,6 +66,13 @@ input.form-control.form-control-sm{
         display: flex;
         flex-direction: column !important;
     }
+    .container{
+        padding: 0 !important;
+    }
+    .carousel-indicators li {
+        margin-left: .75rem !important;
+        margin-right: .75rem !important;
+    }
 }
 
 @media screen and (min-width: 505px){
