@@ -1,5 +1,7 @@
+body {overflow-y:scroll;}
 .flexed {
     display: flex;
+    justify-content: space-between;
     
 }
 
@@ -20,6 +22,8 @@ button.navbar-toggle{
     border: none;
     font-size: larger;
     background-color: #f5f5f5;
+    display:flex;
+    justify-content: space-between;
 }
 
 nav.navbar.navbar-light.bg-light{
@@ -123,3 +127,55 @@ input.form-control.form-control-sm{
     background-color: #47474725;
     
 }         
+
+.whiteMe {
+    background-color: none !important;
+}
+
+.emailSignup input{
+    font-size: 1.2rem;
+    padding: 2rem .5rem;
+    text-transform: capitalize;
+}
+
+.emailSignup input::placeholder{
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 506px){
+    .emailSignup input{
+        font-size: 1rem;
+        padding: 1.2rem .5rem;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+    .smallSize{
+        padding: .5rem !important;
+    }
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 300px;
+}
+
+@media screen and (max-width: 380px){
+    .logo img {
+        width: 220px;
+    }
+}
+
+.logoFlex{
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.active{
+    color: red !important;
+    font-weight: 500;
+}
