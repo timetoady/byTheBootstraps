@@ -4,7 +4,12 @@ const logo = document.querySelector(".logoImage");
 const rev = new Audio("./assets/rev.mp3");
 const rollback = new Audio("./assets/rollback.mp3");
 
+$(window).on('load',function(){
+    $('#newModal').modal('show');
+});
+
 logo.addEventListener("mouseover", () => {
+    rev.play();
   anime({
     targets: logo,
     keyframes: [
@@ -27,7 +32,7 @@ logo.addEventListener("mouseover", () => {
     duration: 1300,
     easing: "linear",
   });
-  rev.play();
+  
 });
 
 logo.addEventListener("mouseout", () => {
