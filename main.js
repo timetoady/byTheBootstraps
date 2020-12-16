@@ -1,8 +1,8 @@
 import anime from "/animejs/lib/anime.es.js";
 
 const logo = document.querySelector(".logoImage");
-const rev = new Audio("./assets/rev.wav");
-const rollback = new Audio("./assets/rollback.wav");
+const rev = new Audio("./assets/rev.mp3");
+const rollback = new Audio("./assets/rollback.mp3");
 
 logo.addEventListener("mouseover", () => {
   anime({
